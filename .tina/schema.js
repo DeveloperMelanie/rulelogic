@@ -12,14 +12,10 @@ const schema = defineSchema({
         clientId: process.env.CLIENTID,
         branch,
         media: {
-            tina: {
-                publicFolder: 'public',
-                mediaRoot: 'uploads',
+            loadCustomStore: async () => {
+                const pack = await import('next-tinacms-cloudinary')
+                return pack.TinaCloudCloudinaryMediaStore
             },
-            // loadCustomStore: async () => {
-            //     const pack = await import('next-tinacms-cloudinary')
-            //     return pack.TinaCloudCloudinaryMediaStore
-            // },
         },
     },
     collections: [
