@@ -23,11 +23,6 @@ export default function SEO({ title, description }) {
                 href='/favicon-16x16.png'
             />
             <link rel='manifest' href='/site.webmanifest' />
-            <link
-                rel='mask-icon'
-                href='/safari-pinned-tab.svg'
-                color='#0da799'
-            />
             <meta name='msapplication-TileColor' content='#00aba9' />
             <meta name='theme-color' content='#0da799' />
         </Head>
