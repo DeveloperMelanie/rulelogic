@@ -3,7 +3,7 @@ import { TinaMarkdown } from 'tinacms/dist/rich-text'
 export default function FeaturedSection({ data }) {
     return (
         <section className='text-white py-24'>
-            <div className='container'>
+            <div className='app-container'>
                 <h2 className='text-[3.2rem] sm:text-[3.4rem] font-heading font-extrabold max-w-[1200px] mb-28'>
                     {data?.heading}
                 </h2>

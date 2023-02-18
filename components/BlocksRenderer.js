@@ -1,10 +1,14 @@
 import Hero from './blocks/Hero'
+import Landing from './blocks/Landing'
 import Feature from './blocks/Feature'
 import FeaturedSection from './blocks/FeaturedSection'
 
 const SECTIONS = {
     PageBlocksHero: (block, i) => (
         <Hero data={block} key={i + block.__typename} />
+    ),
+    PageBlocksLanding: (block, i) => (
+        <Landing data={block} key={i + block.__typename} />
     ),
     PageBlocksFeature: (block, i) => (
         <Feature data={block} key={i + block.__typename} />

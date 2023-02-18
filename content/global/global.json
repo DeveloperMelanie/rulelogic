@@ -1,0 +1,240 @@
+{
+  "header": {
+    "navItem": [
+      {
+        "target": "content/pages/home.md",
+        "name": "Product",
+        "menu": {
+          "item": [
+            {
+              "title": "Smartly.io SaaS Platform",
+              "link": [
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676622021/svg_hdz88r.svg",
+                  "title": "Product overview",
+                  "body": "Drive social media advertising performance with a holistic cross-platform approach.\n"
+                }
+              ]
+            },
+            {
+              "title": "Platform Features",
+              "link": [
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634768/svg_d8ua5z.svg",
+                  "title": "Intelligence",
+                  "body": "Actionable in-flight and real-time data.\n"
+                },
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634696/svg_dncqys.svg",
+                  "title": "Media",
+                  "body": "Effectively deliver media strategies.\n"
+                },
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676622021/svg_hdz88r.svg",
+                  "title": "Creative",
+                  "body": "Create smarter ads designed to scale across channel.\n"
+                }
+              ]
+            },
+            {
+              "title": "Channels",
+              "link": [
+                {
+                  "url": "https://www.smartly.io/product/facebook",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676623276/svg_zsk8yv.svg",
+                  "title": "Meta",
+                  "body": ""
+                },
+                {
+                  "url": "https://www.smartly.io/product/snapchat",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634930/svg_jo45bq.svg",
+                  "title": "Snapchat",
+                  "body": ""
+                },
+                {
+                  "url": "https://www.smartly.io/product/pinterest",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634967/svg_kud1gk.svg",
+                  "title": "Pinterest",
+                  "body": ""
+                },
+                {
+                  "url": "https://www.smartly.io/product/tiktok",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676635009/svg_qjucag.svg",
+                  "title": "TikTok",
+                  "body": ""
+                }
+              ]
+            }
+          ]
+        },
+        "notice": {
+          "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676632319/tiktok-nav-2_vqshgq.jpg",
+          "title": "Smartly.io for TikTok Shopping Ads",
+          "body": "Smartly.io is the first-to-market TikTok campaign and ads partner for Shopping Ads. Learn more about our tools to help drive e-commerce sales this holiday season.\n",
+          "url": "/"
+        }
+      },
+      {
+        "target": "content/pages/services.md",
+        "name": "Services",
+        "menu": {
+          "globalTitle": "RuleLogic Services ",
+          "item": [
+            {
+              "title": "",
+              "link": [
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676622021/svg_hdz88r.svg",
+                  "title": "Product overview",
+                  "body": "Drive social media advertising performance with a holistic cross-platform approach.\n"
+                }
+              ]
+            },
+            {
+              "title": "",
+              "link": [
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634768/svg_d8ua5z.svg",
+                  "title": "Intelligence",
+                  "body": "Actionable in-flight and real-time data.\n"
+                }
+              ]
+            },
+            {
+              "title": "",
+              "link": [
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676623276/svg_zsk8yv.svg",
+                  "title": "Creative Services",
+                  "body": "Our Creative Services team takes your creatives in a new direction with social-first ad production.\n"
+                }
+              ]
+            }
+          ]
+        },
+        "notice": {
+          "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676632319/tiktok-nav-2_vqshgq.jpg",
+          "title": "Smartly.io for TikTok Shopping Ads",
+          "body": "Smartly.io is the first-to-market TikTok campaign and ads partner for Shopping Ads. Learn more about our tools to help drive e-commerce sales this holiday season.\n",
+          "url": "/"
+        }
+      },
+      {
+        "target": "content/pages/home.md",
+        "name": "Industries",
+        "menu": {
+          "globalTitle": "We work globally across different industries, including",
+          "item": [
+            {
+              "title": "",
+              "link": [
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676622021/svg_hdz88r.svg",
+                  "title": "Retail",
+                  "body": ""
+                },
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634967/svg_kud1gk.svg",
+                  "title": "Gaming",
+                  "body": ""
+                }
+              ]
+            }
+          ]
+        },
+        "notice": {
+          "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676632319/tiktok-nav-2_vqshgq.jpg",
+          "title": "Smartly.io for TikTok Shopping Ads",
+          "body": "Smartly.io is the first-to-market TikTok campaign and ads partner for Shopping Ads. Learn more about our tools to help drive e-commerce sales this holiday season.\n",
+          "url": "/"
+        }
+      },
+      {
+        "target": "content/pages/home.md",
+        "name": "Resources",
+        "menu": {
+          "item": [
+            {
+              "title": "Trending Now",
+              "link": [
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676622021/svg_hdz88r.svg",
+                  "title": "Product overview",
+                  "body": ""
+                }
+              ]
+            },
+            {
+              "title": "Industry Insight",
+              "link": [
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634768/svg_d8ua5z.svg",
+                  "title": "Intelligence",
+                  "body": ""
+                },
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634696/svg_dncqys.svg",
+                  "title": "Media",
+                  "body": ""
+                },
+                {
+                  "url": "/",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676622021/svg_hdz88r.svg",
+                  "title": "Creative",
+                  "body": ""
+                }
+              ]
+            },
+            {
+              "title": "Content Type",
+              "link": [
+                {
+                  "url": "https://www.smartly.io/product/facebook",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676623276/svg_zsk8yv.svg",
+                  "title": "Meta",
+                  "body": ""
+                },
+                {
+                  "url": "https://www.smartly.io/product/snapchat",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634930/svg_jo45bq.svg",
+                  "title": "Snapchat",
+                  "body": ""
+                },
+                {
+                  "url": "https://www.smartly.io/product/pinterest",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634967/svg_kud1gk.svg",
+                  "title": "Pinterest",
+                  "body": ""
+                },
+                {
+                  "url": "https://www.smartly.io/product/tiktok",
+                  "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676635009/svg_qjucag.svg",
+                  "title": "TikTok",
+                  "body": ""
+                }
+              ]
+            }
+          ]
+        },
+        "notice": {
+          "image": "https://res.cloudinary.com/dl1rvoaid/image/upload/v1676632319/tiktok-nav-2_vqshgq.jpg",
+          "title": "Smartly.io for TikTok Shopping Ads",
+          "body": "Smartly.io is the first-to-market TikTok campaign and ads partner for Shopping Ads. Learn more about our tools to help drive e-commerce sales this holiday season.\n",
+          "url": "/"
+        }
+      }
+    ]
+  }
+}

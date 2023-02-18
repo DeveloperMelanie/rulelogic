@@ -8,8 +8,8 @@ export default function Hero({ data }) {
                 alt=''
                 className='w-full max-w-[210px] absolute left-[13%] top-[10%]'
             />
-            <div className='container space-y-4 text-center z-10'>
-                <h1 className='text-[4.7rem] font-black max-w-[770px] mx-auto leading-snug font-heading'>
+            <div className='app-container space-y-5 text-center z-10'>
+                <h1 className='text-[5rem] font-black max-w-[790px] mx-auto leading-snug font-heading'>
                     {data?.title}
                 </h1>
                 <div className='max-w-[600px] mx-auto text-[1.15rem]'>

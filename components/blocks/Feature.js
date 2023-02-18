@@ -2,7 +2,7 @@ import { TinaMarkdown } from 'tinacms/dist/rich-text'
 
 export default function Feature({ data }) {
     return (
-        <section className='container space-y-24 py-32'>
+        <section className='app-container space-y-24 py-32'>
             <div className='flex flex-col lg:flex-row justify-between gap-x-32 gap-y-16 items-center'>
                 <div className='max-w-[730px] prose flex-1 [&>h1]:leading-normal [&>h1]:font-heading [&>*>strong]:font-extrabold [&>*>strong]:bg-yellow-300 [&>*>strong]:rounded-lg'>
                     <TinaMarkdown content={data?.body} />

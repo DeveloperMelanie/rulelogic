@@ -8,7 +8,7 @@ export default function Footer() {
     const actualYear = new Date().getFullYear()
 
     return (
-        <footer className='container py-12'>
+        <footer className='app-container py-12'>
             <div className='flex flex-col md:flex-row gap-8 justify-between items-center mb-10'>
                 <img
                     src='/assets/logo.png'
@@ -63,11 +63,11 @@ export default function Footer() {
                         type='text'
                         required
                         placeholder='Email'
-                        className='w-full md:w-auto py-[0.6rem] pl-7 md:pr-14 border border-r-0 rounded-full rounded-r-none'
+                        className='w-full md:w-auto py-[0.6rem] pl-7 md:pr-14 border border-r-0 rounded-full rounded-r-none outline-none focus:border-primary'
                     />
                     <button
                         type='submit'
-                        className='flex-1 w-full md:w-auto p-[0.6rem] px-12 border border-l-0 rounded-full rounded-l-none uppercase bg-blue-400 text-white'
+                        className='flex-1 w-full md:w-auto p-[0.6rem] px-12 border border-l-0 border-primary rounded-full rounded-l-none uppercase bg-primary text-white'
                     >
                         Suscribe
                     </button>

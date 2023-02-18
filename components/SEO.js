@@ -3,7 +3,7 @@ import Head from 'next/head'
 export default function SEO({ title, description }) {
     return (
         <Head>
-            <title>{title ? `${title} | Rule Logic` : 'Rule Logic'}</title>
+            <title>{title ? `${title} | RuleLogic` : 'RuleLogic'}</title>
             <meta name='description' content={description} />
             <link
                 rel='apple-touch-icon'
