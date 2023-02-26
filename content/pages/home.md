@@ -1,68 +1,85 @@
 ---
 title: ''
-description: this is the home page for automation and online advertising optimisation.
+description: Advertising made easy
 blocks:
-    - firstImage: /uploads/typing.gif
-      title: Lorem Ipsum Dolor Sit Amet
-      subtitle: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum
-          nisi vitae turpis tristique, a aliquet orci consectetur. Donec commodo ex
-          purus, nec tincidunt felis interdum at.
-      secondImage: /uploads/giphy.webp
-      _template: hero
-    - body: "# Smartly.io empowers brands to centralize, automate, and optimize\_**multi-platform advertising**\_to save time, money, and drive performance\n"
-      image: /uploads/smartly-multiplatform.webp
-      partners:
-          - logo: /uploads/partner.svg
-          - logo: /uploads/partner.svg
-          - logo: /uploads/partner.svg
-          - logo: /uploads/partner.svg
-          - logo: /uploads/partner.svg
-      _template: feature
-    - color: '#1D1853'
-      heading: |-
-          Smartly.io combines Creative, Media &
-          Intelligence into one platform.
-      cards:
-          - title: Automate the Creative Process
-            content: >
-                Smartly.io’s dynamic templates automate creative production with
-                real-time data so you can deliver relevant and personalized ads. With
-                custom AI-driven insights, uncover what works and leverage data to
-                inform creative planning.
+  - firstImage: /uploads/typing.gif
+    title: 'Online Advertising is a Huge Worldwide Opportunity '
+    subtitle: >
+      While established platforms such as Google and
 
+      Facebook dominate the online advertising landscape, the emergence of
+      single
 
-                [Learn more](https://www.smartly.io/product/creative?hsLang=en "")
-            image: /uploads/a.svg
-          - title: Automate the Creative Process
-            content: >
-                Smartly.io’s dynamic templates automate creative production with
-                real-time data so you can deliver relevant and personalized ads. With
-                custom AI-driven insights, uncover what works and leverage data to
-                inform creative planning.
+      multi-platform advertising
 
+      solution is unconquered.
+    secondImage: /uploads/giphy.webp
+    _template: hero
+  - body: >+
+      This solution offers an exciting opportunity for
 
-                [Learn more](https://www.smartly.io/product/creative?hsLang=en "")
-            image: /uploads/a.svg
-          - title: Automate the Creative Process
-            content: >
-                Smartly.io’s dynamic templates automate creative production with
-                real-time data so you can deliver relevant and personalized ads. With
-                custom AI-driven insights, uncover what works and leverage data to
-                inform creative planning.
+      businesses to maximize their advertising impact across a wider range of
+      digital
 
+      channels.
 
-                [Learn more](https://www.smartly.io/product/creative?hsLang=en "")
-            image: /uploads/a.svg
-          - title: Automate the Creative Process
-            content: >
-                Smartly.io’s dynamic templates automate creative production with
-                real-time data so you can deliver relevant and personalized ads. With
-                custom AI-driven insights, uncover what works and leverage data to
-                inform creative planning.
+      =========
 
+    image: /uploads/smartly-multiplatform.webp
+    partners:
+      - logo: /uploads/partner.svg
+      - logo: /uploads/partner.svg
+      - logo: /uploads/partner.svg
+      - logo: /uploads/partner.svg
+      - logo: /uploads/partner.svg
+    _template: feature
+  - color: '#1D1853'
+    heading: >-
+      RuleLogic empowers it’s user by providing a simple application to
+      advertise on 10+ advertising platforms
+    cards:
+      - title: A Unified Ad Platform
+        content: >
+          Only one platform to learn. A simplified ad platform to Launch
+          campaigns
 
-                [Learn more](https://www.smartly.io/product/creative?hsLang=en "")
-            image: /uploads/a.svg
-      _template: featuredSection
+          on 10+ platforms in 10 minutes.
+        image: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1677417756/te_on7f0w.webp
+      - title: Optimised For Best Outcome
+        content: >
+          We automatize optimize campaign on each and across all ad platforms.
+          We
+
+          then direct more of the advertising budget towards the better
+          performing
+
+          platform for the more optimum result.
+        image: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1677417756/te_on7f0w.webp
+      - title: Single Analytical KPI Dashboard
+        content: |
+          Analytical dashboard showing the most important KPI at summary
+          level. Users can drill-down to each ad
+          platform to view results and KPIs at detailed level.
+        image: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1677417756/te_on7f0w.webp
+      - title: AI Powered Ad Generation
+        content: >
+          Utilizing Open AI’s Chat-GPT our
+
+          platform can generate and suggest unlimited ideas for search and text
+          ad
+
+          creative headers and content.
+        image: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1677417756/te_on7f0w.webp
+      - title: Unique Automation
+        content: |
+          A unique automation technology to
+          start or stop campaign based on time, weather, share market, news.
+        image: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1677417756/te_on7f0w.webp
+    _template: featuredSection
 ---
+

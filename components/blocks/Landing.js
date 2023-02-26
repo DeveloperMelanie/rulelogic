@@ -7,22 +7,22 @@ export default function Landing({ data }) {
                 <h1 className='text-[3.3rem] sm:text-[4rem] font-black max-w-[890px] mx-auto leading-snug font-heading'>
                     {data?.title}
                 </h1>
-                <div className='max-w-[830px] mx-auto text-[1.15rem]'>
+                <div className='max-w-[830px] mx-auto text-[1.15rem] [&>p>a]:bg-primary [&>p>a]:px-12 [&>p>a]:py-3 [&>p>a]:rounded-full [&>p>a]:text-white [&>p>a]:font-bold [&>p>a]:block [&>p>a]:w-fit [&>p>a]:mx-auto'>
                     <TinaMarkdown content={data?.subtitle} />
                 </div>
             </div>
             <img
-                src={data?.images[0]?.img}
+                src={data?.images?.[0]?.img}
                 alt=''
                 className='w-full max-w-[100px] md:max-w-[150px] absolute top-2 left-[58%] md:left-1/2 md:-translate-x-1/2 xl:left-[20%] md:top-[20%]'
             />
             <img
-                src={data?.images[1]?.img}
+                src={data?.images?.[1]?.img}
                 alt=''
                 className='w-full max-w-[100px] md:max-w-[150px] absolute bottom-[84%] right-[60%] md:right-[6%] md:bottom-0 xl:right-[14%] xl:bottom-[20%]'
             />
             <img
-                src={data?.images[2]?.img}
+                src={data?.images?.[2]?.img}
                 alt=''
                 className='w-full max-w-[100px] hidden md:block md:max-w-[150px] absolute right-[81%] bottom-0 xl:right-[40%] xl:top-[5%]'
             />

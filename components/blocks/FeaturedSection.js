@@ -27,7 +27,7 @@ export default function FeaturedSection({ data }) {
                                 <img
                                     src={card?.image}
                                     alt=''
-                                    className='w-full max-w-[640px]'
+                                    className='w-full max-w-[640px] rounded-xl'
                                 />
                             </div>
                         </div>
