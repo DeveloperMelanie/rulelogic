@@ -36,7 +36,7 @@ export default function Nav() {
                             e.preventDefault()
                         }
                     >
-                        {navItem?.name} <Arrow />
+                        {navItem?.name} {navItem?.menu && <Arrow />}
                     </Link>
                     {navItem?.menu && (
                         <div

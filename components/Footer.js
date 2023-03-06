@@ -76,36 +76,18 @@ export default function Footer() {
             <hr className='my-14' />
             <div className='flex flex-wrap gap-16 mb-8'>
                 <div>
-                    <h4 className='font-bold mb-3'>Partners</h4>
+                    <h4 className='font-bold mb-3'>Learn more</h4>
                     <div className='flex flex-col gap-1'>
-                        <Link href='/'>Facebook</Link>
-                        <Link href='/'>Snapchat</Link>
-                        <Link href='/'>Pinterest</Link>
-                        <Link href='/'>Technology Partnerships</Link>
-                        <Link href='/'>Viralspace</Link>
-                        <Link href='/'>Ad-Lib.io</Link>
+                        <Link href='/'>About us</Link>
+                        <Link href='/'>FAQ</Link>
+                        <Link href='/'>Contacts</Link>
+                        <Link href='/'>Support</Link>
                     </div>
                 </div>
                 <div>
-                    <h4 className='font-bold mb-3'>Resources</h4>
+                    <h4 className='font-bold mb-3'>Education</h4>
                     <div className='flex flex-col gap-1'>
-                        <Link href='/'>Facebook</Link>
-                        <Link href='/'>Snapchat</Link>
-                        <Link href='/'>Pinterest</Link>
-                        <Link href='/'>Technology Partnerships</Link>
-                        <Link href='/'>Viralspace</Link>
-                        <Link href='/'>Ad-Lib.io</Link>
-                    </div>
-                </div>
-                <div>
-                    <h4 className='font-bold mb-3'>About us</h4>
-                    <div className='flex flex-col gap-1'>
-                        <Link href='/'>Facebook</Link>
-                        <Link href='/'>Snapchat</Link>
-                        <Link href='/'>Pinterest</Link>
-                        <Link href='/'>Technology Partnerships</Link>
-                        <Link href='/'>Viralspace</Link>
-                        <Link href='/'>Ad-Lib.io</Link>
+                        <Link href='/'>Blog</Link>
                     </div>
                 </div>
             </div>

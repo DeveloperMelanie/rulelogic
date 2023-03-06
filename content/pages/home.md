@@ -15,24 +15,45 @@ blocks:
       solution is unconquered.
     secondImage: /uploads/giphy.webp
     _template: hero
-  - body: >+
+  - body: >
       This solution offers an exciting opportunity for
 
-      businesses to maximize their advertising impact across a wider range of
-      digital
+      businesses to **maximize their advertising impact** across a wider range
+      of digital
 
       channels.
 
       =========
-
     image: /uploads/smartly-multiplatform.webp
-    partners:
-      - logo: /uploads/partner.svg
-      - logo: /uploads/partner.svg
-      - logo: /uploads/partner.svg
-      - logo: /uploads/partner.svg
-      - logo: /uploads/partner.svg
     _template: feature
+  - features:
+      - logo: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634967/svg_kud1gk.svg
+        title: Create
+        body: >
+          Easily Create Your Advertising Campaigns Across Multiple Channels in
+          Minutes
+      - logo: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634967/svg_kud1gk.svg
+        title: Manage
+        body: |
+          Manage all your advertising campaigns in one place
+      - logo: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634967/svg_kud1gk.svg
+        title: Analyze
+        body: |
+          Analyze your campaigns and get actionable insights
+      - logo: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634967/svg_kud1gk.svg
+        title: Collaborate
+        body: |
+          Collaborate effectively with your teams and clients
+      - logo: >-
+          https://res.cloudinary.com/dl1rvoaid/image/upload/v1676634967/svg_kud1gk.svg
+        title: Learn
+        body: |
+          Grow your ads skills with the AdEspresso University
+    _template: featuredList
   - color: '#1D1853'
     heading: >-
       RuleLogic empowers it’s user by providing a simple application to

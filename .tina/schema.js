@@ -5,6 +5,7 @@ import { heroBlockSchema } from 'components/blocks/Hero'
 import { landingBlockSchema } from 'components/blocks/Landing'
 import { featureBlockSchema } from 'components/blocks/Feature'
 import { featuredSectionBlockSchema } from 'components/blocks/FeaturedSection'
+import { featuredListBlockSchema } from 'components/blocks/FeaturedList'
 
 const branch = 'main'
 const schema = defineSchema({
@@ -176,6 +177,7 @@ const schema = defineSchema({
                         landingBlockSchema,
                         featureBlockSchema,
                         featuredSectionBlockSchema,
+                        featuredListBlockSchema,
                     ],
                 },
             ],
