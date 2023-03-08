@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { TinaMarkdown } from 'tinacms/dist/rich-text'
+import { getLink } from 'utils'
 
 export default function Hero({ data }) {
     return (
@@ -17,10 +18,10 @@ export default function Hero({ data }) {
                     <TinaMarkdown content={data?.subtitle} />
                 </div>
                 <Link
-                    href='/'
+                    href={getLink(data?.cta?.url?.id)}
                     className='py-4 block w-fit mx-auto text-xl px-10 bg-primary hover:bg-opacity-90 text-white border border-primary border-opacity-60 hover:border-opacity-90 hover:scaled transition-all rounded-full font-bold'
                 >
-                    Start free trial now
+                    {data?.cta?.label}
                 </Link>
             </div>
             <img
@@ -53,6 +54,26 @@ export const heroBlockSchema = {
             label: 'Subtitle',
             name: 'subtitle',
             required: true,
+        },
+        {
+            type: 'object',
+            label: 'CTA',
+            name: 'cta',
+            fields: [
+                {
+                    type: 'reference',
+                    collections: ['page'],
+                    label: 'Target page',
+                    name: 'url',
+                    required: true,
+                },
+                {
+                    type: 'string',
+                    label: 'Label',
+                    name: 'label',
+                    required: true,
+                },
+            ],
         },
         {
             type: 'image',

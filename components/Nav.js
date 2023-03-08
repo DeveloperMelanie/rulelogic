@@ -2,18 +2,11 @@ import { useState } from 'react'
 import Arrow from 'icons/Arrow'
 import Link from 'next/link'
 import navData from 'content/global/global.json'
+import { getLink } from 'utils'
 
 export default function Nav() {
     const [activeLink, setActiveLink] = useState(null)
     const data = navData.header.navItem
-
-    const getLink = path => {
-        const formattedPath = path
-            .replace(/^content\/pages/, '')
-            .replace(/\.md$/, '')
-        const link = formattedPath === '/home' ? '/' : `/${formattedPath}`
-        return link
-    }
 
     return (
         <>
