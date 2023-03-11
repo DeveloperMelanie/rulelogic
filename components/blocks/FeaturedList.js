@@ -4,7 +4,7 @@ import { TinaMarkdown } from 'tinacms/dist/rich-text'
 export default function FeaturedList({ data }) {
     return (
         <div className='bg-gray-50 py-24 border-b'>
-            <div className='app-container flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-12'>
+            <div className='app-container flex flex-wrap md:flex-nowrap justify-center md:justify-between gap-x-8 gap-y-12'>
                 {data?.features?.map((feature, i) => (
                     <div key={i} className='text-center max-w-[230px]'>
                         <div className='bg-white shadow-xl p-2 rounded-full w-fit mx-auto mb-3'>

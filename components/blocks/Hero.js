@@ -4,7 +4,7 @@ import { getLink } from 'utils'
 
 export default function Hero({ data }) {
     return (
-        <section className='hero relative w-full min-h-[65vh] flex justify-center items-center shadow-md overflow-hidden'>
+        <section className='hero relative w-full min-h-[610px] flex justify-center items-center shadow-md overflow-hidden'>
             <img
                 src={data?.firstImage}
                 alt=''
